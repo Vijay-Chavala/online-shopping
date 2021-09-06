@@ -1,0 +1,470 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    widows: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    min-height: 30px;
+    background-color: #f6f6f6
+}
+
+.navbar-brand {
+    height: 45px;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 100px !important;
+}
+
+.carousel-inner .btn {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: .6rem;
+    margin
+}
+.card-img
+{
+    overflow: hidden !important
+}
+
+.navbtn {
+    border: none;
+    color: #000;
+    font-size: 1rem
+}
+
+.user {
+    font-size: 1.2rem;
+    line-height: 30px
+}
+
+.bag {
+    font-size: 1.2rem;
+    line-height: 30px
+}
+
+.menu .nav-item a {
+    color: #000 !important;
+    padding-left: 1em;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px !important
+}
+
+.menu .nav-item a:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+
+.search {
+    margin-top: 55px
+}
+
+.search .form-control {
+    background-color: #cdcdcd;
+    position: relative;
+    height: 50px;
+
+}
+
+input[type=text] {
+    width: 60%;
+    border-radius: 15px;
+    border: none;
+    padding-left: 1rem;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-bottom: 5px
+}
+
+.search .searchIcon {
+    position: absolute;
+    top: 1.2rem;
+    right: 25%;
+    opacity: 0.5;
+    font-size: 1.4rem
+}
+
+
+
+.carousel-item img {
+    width: 100% !important;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+    display: none;
+}
+
+.men-banner {
+    position: relative;
+}
+
+.fixed-btns {
+    position: fixed;
+    right: 0;
+    bottom: 35%;
+    z-index: 5;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, .5) !important
+}
+
+
+.fixed-btns a {
+    text-decoration: none !important
+}
+
+.fixed-btns a i {
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+
+.fixed-btns .favnum {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    bottom: 23% !important;
+    font-size: .8rem;
+    right: 1px;
+    width: 20px;
+    text-align: center;
+    color: #fff;
+    z-index: -1
+}
+
+
+
+
+
+
+
+
+
+.men-banner .row .img-fluid,
+.women-banner .row .img-fluid,
+.kids-banner .row .img-fluid {
+
+    width: 100% !important;
+    height: 100%
+}
+
+.men-items1 {
+    position: relative;
+    margin-top: 15px
+}
+.men-items1 .men-images
+{
+    transition: all 1s ease;
+    overflow: hidden !important;
+    transform: scale(1);
+}
+.men-items1 .men-images:hover
+{
+   
+    transform: scale(1.1)
+}
+.men-items1 .card-body {
+    padding: 10px 0 0 0;
+}
+
+.men-items1 .card-icons {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    bottom: 27%;
+    height: 40px;
+    width: 100%;
+    left: 0;
+
+}
+
+.men-items1 .card-icons i {
+    position: absolute;
+    color: #fff;
+    padding-left: 60px;
+    font-size: 2rem
+}
+
+.owl-carousel p {
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: .7rem
+}
+
+.owl-carousel .card-icons a img,
+.owl-carousel .card-icons a i {
+    position: absolute;
+    left: 0px !important;
+    width: 10%;
+    top: 15%;
+
+}
+
+.owl-carousel .card-icons #album img {
+    width: 25% !important;
+    left: 30px !important
+}
+
+.owl-carousel .card-icons a i {
+    font-size: 1.6rem !important;
+    left: 70px !important;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+
+.card-text {
+    font-size: .8rem;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important
+}
+
+.recent .item .card .card-icons {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    bottom: 40%;
+    height: 25px;
+    width: 100%;
+    left: 0;
+
+}
+
+.recent .item .card {
+    position: relative;
+}
+
+.recent .item .card .card-icons #album img,
+.card-icons a i {
+    position: absolute;
+    left: 30%;
+    width: 10% !important;
+    top: 10%;
+
+}
+
+.card-icons #album img {
+    width: 28px !important;
+    padding-top: 3px;
+    left: 85px !important
+}
+
+.recent .item .card .card-icons a i {
+    font-size: 1rem !important;
+    left: 50%;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.recent .item .card .card-body {
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0 !important
+}
+
+.recent .item .card .card-body .card-text {
+    font-size: 10px;
+    text-align: center;
+}
+
+.recent .item .card .card-btn a {
+    font-size: 10px;
+    margin-left: 25%;
+    background-color: none !important
+}
+
+.card-btn .btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+}
+
+.kids-banner {
+    position: relative;
+}
+
+.kids-banner .btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10%;
+    font-size: .5rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    border: 1px solid #000;
+    padding: 4px 8px;
+
+}
+
+.links {
+    background-color: #f6f6f6
+}
+
+.links a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: all 1s ease
+}
+
+.links a:hover {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem
+}
+
+.links h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.delstamp {
+    padding-left: 80px
+}
+
+.delstamp .img2 {
+    width: 40px;
+    height: 40px;
+}
+
+.delstamp p {
+    font-size: .9em;
+    padding-top: 10px;
+}
+
+.kids-banner {
+    background-color: #f6f6f6
+}
+
+/*modal*/
+.modal-content .mainimg img {
+    height: 80% !important;
+    border: 2px solid #000;
+    display: block;
+
+}
+
+.sizes p {
+    font-size: .7rem;
+    display: block
+}
+
+.sizes .size {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    padding: 5px
+}
+
+.modal-footer .btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #000;
+    color: #000
+}
+
+.modal-header .close {
+    border: 3px solid #000;
+    padding: 2px 7px;
+    border-radius: 50%;
+    margin-top: .5px;
+    margin-right: 1px
+}
+
+.modal-footer .fa-heart {
+    font-size: 2rem
+}
+
+/*End of modal*/
+
+.recent .card-icons,
+.card-icon {
+    position: absolute;
+    background-color: #000;
+    bottom: 40%;
+    height: 40px;
+    width: 100%;
+    left: 0;
+    opacity: .6;
+}
+
+.recent .card-body .btn {
+    text-align: center;
+    margin-left: 20%;
+    font-size: .9rem
+}
+
+.card-icons #album img {
+    position: absolute;
+    left: 20%;
+    width: 25%;
+    top: 5%
+}
+
+.men-items1 .card-icons #album img {
+    position: absolute;
+    left: 20% !important;
+    width: 12% !important;
+    top: 5%;
+    z-index: 5
+}
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    .recent .card-icons,
+    .card-icon {
+        position: absolute;
+        background-color: #000;
+        bottom: 50%;
+        height: 30px;
+        width: 100%;
+        left: 0;
+        opacity: .6
+    }
+
+    .men-items1 .card-icons {
+        bottom: 40% !important
+    }
+
+
+    .men-items1 .card-body .card-text p {
+        padding-top: 4px !important
+    }
+
+    .recent .card-body .btn {
+        text-align: center;
+        margin-left: 1%;
+        font-size: .6rem
+    }
+
+    .men-items .card-icons #album img {
+        position: absolute;
+        left: 20%;
+        width: 25%;
+        top: 5%
+    }
+
+    .men-items1 .card-icons i {
+        position: absolute;
+        color: #fff;
+        padding-left: 0px;
+        font-size: 2rem
+    }
+}
